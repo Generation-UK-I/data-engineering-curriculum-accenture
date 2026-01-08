@@ -1,0 +1,25 @@
+*.map
+.DS_Store
+.yarn/
+node_modules/
+.venv/
+.ipynb_checkpoints/
+__pycache__
+.pytest_cache
+.idea/
+!favicon.ico
+**/favicon.ico
+*.pdf
+!introduction-to-ai-and-ml/handouts/docs/*.pdf
+!static/favicon-*.ico
+*.zip
+scripts/modules.txt
+.history
+*.css
+*.css.map
+scratch*
+*.drawio.bkp
+
+# Other temp files
+module-summaries.*
+*-session-summaries.*

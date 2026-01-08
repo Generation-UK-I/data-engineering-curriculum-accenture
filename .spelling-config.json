@@ -1,0 +1,24 @@
+{
+    "version": "0.2",
+    "language": "en-GB",
+    "dictionaries": ["academy-terms", "tech-terms", "british-spelling"],
+    "dictionaryDefinitions": [
+        { "name": "academy-terms", "path": "./dictionaries/academy-terms.txt" },
+        { "name": "tech-terms", "path": "./dictionaries/tech-terms.txt" },
+        { "name": "british-spelling", "path": "./dictionaries/british-spelling.txt" }
+    ],
+    "ignoreRegExpList": [
+        "/```\\w+\\n((?!.*```).*\\n)+/",
+        "/`((?!.*`).*)+/",
+        "/\\[[a-zA-Z0-9',.\\-\\s]*\\]\\([\\S]+\\)/",
+        "/`[^`]*`/"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "venv",
+        ".venv",
+        "cdk.out",
+        ".history",
+        "build"
+    ]
+}

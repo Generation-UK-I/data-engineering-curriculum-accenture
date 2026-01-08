@@ -1,0 +1,4 @@
+timestamp,location,customer_name,amount_spent,payment_method
+10/07/2022 09:05,Leeds,Joe Root,77,CARD
+10/07/2022 09:06,Manchester,Katie Taylor,440,CARD
+10/07/2022 09:11,Edinburgh,Jack Grealish,101,CASH

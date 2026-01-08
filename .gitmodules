@@ -1,0 +1,4 @@
+[submodule "academy-presentation-tooling"]
+	path = academy-presentation-tooling
+	url = git@github.com:infinityworks/academy-presentation-tooling.git
+	branch = main

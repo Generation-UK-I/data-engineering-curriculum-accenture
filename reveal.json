@@ -1,0 +1,8 @@
+{
+  "autoAnimate": false,
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "slideNumber": "c/t",
+  "showSlideNumber": "all"
+}

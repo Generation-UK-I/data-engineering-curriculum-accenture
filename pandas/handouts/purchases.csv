@@ -1,0 +1,10 @@
+timestamp,location,customer_name,amount_spent,payment_method
+10/07/2022 09:00,Leeds,Verna Hunter,770,CARD
+10/07/2022 09:03,Edinburgh,Elaine Hermans,42,CARD
+10/07/2022 09:06,London,Gary Stanely,1200,CASH
+10/07/2022 09:09,Manchester,Stephanie Lucas,230,CARD
+10/07/2022 09:12,Manchester,Eric Collins,56,CARD
+10/07/2022 09:15,Leeds,Donald Dillon,102,CASH
+10/07/2022 09:18,Edinburgh,Kathy Shipman,41,CARD
+10/07/2022 09:22,Manchester,Catherine Werner,205,CASH
+10/07/2022 09:25,London,John Benoit,935,CARD

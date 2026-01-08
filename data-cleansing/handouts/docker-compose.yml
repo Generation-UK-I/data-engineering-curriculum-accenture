@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  db:
+    image: docker.io/mysql
+    container_name: mysql_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "${mysql_pass}"
+    ports:
+      - "3306:3306"
+    volumes:
+      - type: volume
+        source: my_db_files
+        target: /var/lib/mysql
+  adminer:
+    image: docker.io/adminer
+    container_name: my-adminer
+    restart: always
+    ports:
+      - 8080:8080
+volumes:
+  my_db_files:
